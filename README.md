@@ -17,3 +17,11 @@ samples, guidance on mobile development, and a full API reference.
 
 For downloading the app release APK, follow the link:
 [Gamers Hub APK](https://drive.google.com/file/d/1xnc0a1eybbUMtWWc7lT-EuRBLeCNZFfu/view?usp=sharing)
+
+Credentials for login:
+- username: admin, password: admin
+- username: user, password: user
+  
+Screenshots:
+- <img src="./screenshots/login.jpeg" alt="Login page" style="height: 500px;"/>
+- <img src="./screenshots/home.jpeg" alt="Login page" style="height: 500px;"/>
