@@ -126,7 +126,7 @@ class _HomeState extends State<Home> {
   Future<UserDetails> fetchUserDetails() async {
     String user = widget.user ?? "";
     final response = await http
-        .get(Uri.parse('https://gamers-hub-user.herokuapp.com/$user'));
+        .get(Uri.parse('https://gamers-hub-user.herokuapp.com/users/$user'));
     if (response.statusCode == 200) {
       return UserDetails.fromJson(jsonDecode(response.body));
     } else {
